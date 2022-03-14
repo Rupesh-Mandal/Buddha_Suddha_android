@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cart_navigation"
+    app:startDestination="@id/cartListFragment">
+
+    <fragment
+        android:id="@+id/cartListFragment"
+        android:name="com.softkali.buddhasuddha.checkout.fragment.CartListFragment"
+        android:label="fragment_cart_list"
+        tools:layout="@layout/fragment_cart_list" >
+        <action
+            android:id="@+id/action_cartListFragment_to_cartAddressFragment"
+            app:destination="@id/cartAddressFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cartAddressFragment"
+        android:name="com.softkali.buddhasuddha.checkout.fragment.CartAddressFragment"
+        android:label="fragment_cart_address"
+        tools:layout="@layout/fragment_cart_address" >
+        <action
+            android:id="@+id/action_cartAddressFragment_to_cartPaymentFragment"
+            app:destination="@id/cartPaymentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cartPaymentFragment"
+        android:name="com.softkali.buddhasuddha.checkout.fragment.CartPaymentFragment"
+        android:label="fragment_cart_payment"
+        tools:layout="@layout/fragment_cart_payment" />
+</navigation>

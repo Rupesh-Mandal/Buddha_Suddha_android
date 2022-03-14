@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "139840036390",
+    "project_id": "buddha-suddha",
+    "storage_bucket": "buddha-suddha.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139840036390:android:ac55b7394eedf5a295d0e7",
+        "android_client_info": {
+          "package_name": "com.softkali.buddhasuddha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139840036390-6mjdu522ndt7ac00salvqhoje4k022d1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRjyS3p3h5yK1C_Ba_vhl-ueqr4Dwb5UM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139840036390-6mjdu522ndt7ac00salvqhoje4k022d1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139840036390:android:282d91de237d8c4995d0e7",
+        "android_client_info": {
+          "package_name": "com.softkali.pickupboy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139840036390-6mjdu522ndt7ac00salvqhoje4k022d1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRjyS3p3h5yK1C_Ba_vhl-ueqr4Dwb5UM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139840036390-6mjdu522ndt7ac00salvqhoje4k022d1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
